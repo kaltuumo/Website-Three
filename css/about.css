@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(184, 149, 149);
+}
+.header{
+    margin-top: 40px;
+}
+
+.nav{
+    text-align: right;
+    margin-right: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+  
+}
+.nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+   
+}
+.nav a:hover{
+    color: red;
+}
+.container{
+    background-color: black;
+    width: 1600px;
+    height: 700px;
+    margin: 80px;
+    margin-left: 100px;
+}
+.container h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    margin-top: 20px;
+
+}
+.container p{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 20px;
+    text-align: justify;
+
+}
+.list{
+    font-size: 30px;
+    margin-top: 60px;
+    color: white;
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    color: blue;
+}
+
+.card{
+    float: left;
+    background-color: white;
+    width: 520px;
+    margin-left: 10px;
+    margin: 20px;
+   border-radius: 5px;
+}
+.card img{
+    width: 470px;
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+.card img:hover{
+    width: 480px;
+}
+
+.card h1{
+    font-size: 25px;
+    margin-left: 100px;
+    color: red;
+}
+.card p{
+    font-size: 25px;
+    margin-left: 100px;
+}

@@ -1,0 +1,464 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  
+  
+}
+nav{
+  flex: 1;
+  text-align: right;
+
+}
+nav ul{
+  display: inline-block;
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right:20px ;
+  
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+
+
+
+
+.container{
+    max-width: 1300px;
+    margin:auto;
+    padding-left: 25x;
+    padding-right: 25px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin:25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #Ff523b;
+    color: white;
+    padding: 9px 30px;
+    margin: 30px 0;
+    border-radius: 40px;
+    transition: 0,7s;
+}
+.btn:hover{
+    background: saddlebrown;
+    transform: scale(-15px);
+}
+.header{
+    background: rgb(242, 248, 242);
+
+}
+.header .row{
+  margin-top: 70px;
+
+}
+/*feautes*/
+.category{
+    margin: 70px 0;
+
+}
+.col3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+} 
+.col3 img{
+    width: 100%;
+}
+.samll-container{
+    min-width: 1080px;
+    margin: auto;
+     padding-left: 30px;
+    padding-right: 30px;
+}
+.col4{
+    flex-basis: 20%;
+    padding: 10px;
+    min-width: 200px; 
+    margin-bottom: 50px;
+    transition: .9s;
+}
+.col4 img{
+    width: 100%;
+}
+.yol{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(82, 82, 235);
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position:absolute;
+    line-height: 60px;
+    color: #555;
+}
+span{
+    color: red;
+}
+h4{
+   color: #555; 
+   font-weight: normal;
+}
+.col4 p{
+    font-size: 16px;
+}
+.rating .fa{
+    color:red
+}
+.col4:hover{
+    transform: translateY(-15px);
+}
+.test{
+     padding-top: 100px;
+     width: 100%;
+}
+.test .col3{
+     text-align: center;
+     padding: 40px 20px;
+     box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+     cursor: pointer;
+     transition: 0.9s;
+} 
+.test .col3 img{
+    width: 40px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.test .col3:hover{
+    transform: translateY(-15px);
+}
+.fa.fa-quote-left{
+    font-size: 40px;
+    color: greenyellow;
+}
+.col3 p{
+    font-size: 19px;
+    margin: 12px 0 ;
+    color: #777;
+}
+.test .col3 h3{
+    font-weight: 980;
+    color: #555;
+}
+/*hhhhhhhhhhhh*/
+ .small-container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: 0.9s;
+ }
+ .small-container .col5 img{
+     transform: translateY(-15px);
+ }
+ .fot{
+     width: 100%;
+     background: black;
+     cursor: pointer;
+ }
+ .foe{
+     color: rgb(224, 221, 221);
+     text-align: center;
+     padding: 40px;
+ }
+ /*
+    <!---------brands--------->
+   <div class="brands">
+       <div class="small-container">
+           <div class="row">
+               <div class="col5">
+                   <img src="hormuud.jpg" >
+               </div>
+               <div class="col5">
+                <img src="sometel.jpg" >
+            </div>
+            <div class="col5">
+                <img src="somnet.jpg" >
+            </div>
+            <div class="col5">
+                <img src="preme.jpg" >
+            </div>
+            <div class="col5">
+                <img src="ibs.jpg" >
+            </div>
+           </div>
+       </div>
+   </div>
+   <!----footer------->
+   <hr>
+   <footer class="fot">
+       <div class="foe">
+           <h1>copyright@2021 Dhiblaawe</h1>
+       </div>
+
+*/
+/* all proudcation*/
+.row2{
+    justify-content: space-between;
+    margin: 100px auto;
+}
+select{
+    border: 1px solid white;
+    padding: 8px;
+}
+.pagebtn{
+   margin: 0 auto 80px;
+
+}
+.pagebtn span{
+    display: inline-block;
+    border: 1px solid red;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.pagebtn span:hover{
+    background:red ;
+    color: white;
+}
+.col4.add-cart{
+    position: absolute;
+    width: 100%;
+    background: darkgrey;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+.noe{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+.content1{
+    position: relative;
+    margin: 130px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .content1 .text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #202020;
+  }
+  .content1 .p{
+    font-size: 2.1875rem;
+    font-weight: 600;
+    color: #202020;
+  }
+  footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+  }
+  .main-content{
+    display: flex;
+  }
+  .main-content .box h2{
+    color: white;
+    font-size: 2rem;
+  }
+  .main-content .box p{
+      color: white;
+      font-size: 1.2rem;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .main-content.box span{
+      color: white;
+      font-size: 2rem;
+  }
+  .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .box .content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .box .content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #f12020;
+    top: -10px;
+  }
+  .left .content p{
+    text-align: justify;
+  }
+  .left .content .social{
+    margin: 20px 0 0 0;
+  }
+  .left .content .social a{
+    padding: 0 2px;
+  }
+  .left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .left .content .social a span:hover{
+    background: #f12020;
+  }
+  .center .content .fas{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .center .content .fas:hover{
+    background: #f12020;
+  }
+  .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .center .content .phone{
+    margin: 15px 0;
+  }
+  .right form .text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #656565;
+  }
+  .right form .msg{
+    margin-top: 10px;
+  }
+  .right form input, .right form textarea{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+  .right form input:focus,
+  .right form textarea:focus{
+    outline-color: #3498db;
+  }
+  .right form input{
+    height: 35px;
+  }
+  .right form .btn{
+    margin-top: 10px;
+  }
+  .right form .btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #f12020;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .right form .btn button:hover{
+    background: #000;
+  }
+  .bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+  }
+  .bottom center span{
+    color: #656565;
+  }
+  .bottom center a{
+    color: #f12020;
+    text-decoration: none;
+  }
+  .bottom center a:hover{
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box{
+      margin: 5px 0;
+    }
+  }
+  .testmonial{
+      padding-top: 100px;
+  }
+  .testmonial .col3{
+      text-align: center;
+      padding: 40px 20px ;
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: 0.5s;
+  }
+  .testmonial .col3 img{
+      width: 50px;
+      margin-top: 20px;
+      border-radius: 50%;
+  }
+  .testmonial .col3:hover{
+      transform: translateY(-15px);
+      background: black;
+  }
+  .testmonial .col3:hover h3{
+   color: white;
+}
+.testmonial .col3:hover p{
+    color: white;
+ }

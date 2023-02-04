@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(184, 149, 149);
+    
+}
+.header{
+    margin-top: 40px;
+}
+
+.nav{
+    text-align: right;
+    margin-right: 20px;
+  
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+  
+}
+.nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+   
+}
+.nav a:hover{
+    color: red;
+}
+h1{
+
+    font-size: 50px;
+    text-align: center;
+    color: red;
+   
+}
+h3{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    margin-top: 650px;
+}
+h4{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    margin-top: 500px;
+}
+h5{
+    font-size: 50px;
+    text-align: center;
+    color: green;
+    margin-top: 450px;
+}
+.card{
+    float: left;
+    margin: 20px;
+}
+.card{
+    background: rgb(238, 235, 235);
+    width: 400px;
+    height: 460px;
+}
+.card img{
+    width: 200px;
+    margin-left: 100px;
+}
+.card img:hover{
+    width: 190px;
+}
+.card h1{
+    font-size: 30px;
+    color: red;
+    margin-left: 100px;
+}
+.card p{
+    font-size: 25px;
+    text-align: center;
+}
+.card .button{
+    background-color: blue;
+    font-size: 20px;
+    padding: 5px;
+    width: 200px;
+    margin-left: 100px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: white;
+}
+.card1{
+    float: left;
+    margin-top: 0px;
+}
+.card1 img{
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.card1 img:hover{
+    width: 380px;
+}
+.card1 h2{
+    margin-top: -400px;
+    text-align: center;
+    margin-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card1 p{
+    margin-top: -20px;
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+    margin-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card1 .button{
+    margin-top: 230px;
+    background-color: red;
+    font-size: 20px;
+    padding: 5px;
+    width: 200px;
+    margin-left: 100px;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: white;
+}
+.card2{
+    float: left;
+    width: 440px;
+
+   
+}
+.card2 img {
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 20px;
+}
+.card2 img:hover {
+    width: 390px;
+}
+.card2 h2{
+    margin-top: -360px;
+    margin-left: 290px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 700;
+}
+.card2 p{
+    margin-left: 340px;
+    color: blue;
+    font-family: 700;
+    font-size: 30px;
+    margin-top: 40;
+}
+.card2 .button{
+    margin-top: 180px;
+    background-color: red;
+    font-size: 20px;
+    padding: 5px;
+    width: 200px;
+    margin-left: 120px;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.card3{
+    float: left;
+    
+}
+.card3{
+    background: rgb(238, 235, 235);
+    width:400px;
+    height: 380px;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 90px;
+
+}
+.card3 img{
+   width: 400px;
+}
+/* .card3 img:hover{
+    width: 390px;
+} */
+.card3 .btn{
+    width: 140px;
+    background-color: rgb(65, 65, 129);
+    margin-top: 10px;
+    margin-left: 140px;
+    padding: 9px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid rgb(65, 65, 129);
+    border-radius: 8px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width:100%;
+    bottom: 0;
+    position: fixed;
+    margin-right: 200px;
+   
+  
+}

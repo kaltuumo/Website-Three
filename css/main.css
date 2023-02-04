@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: pink; */
+    background: rgb(184, 149, 149);
+}
+/* .container h1, h2, p{
+    color: black;
+} */
+
+.header{
+    margin-top: 40px;
+}
+
+.nav{
+    text-align: right;
+    margin-right: 20px;
+  
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+  
+}
+.nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+   
+}
+.nav a:hover{
+    color: red;
+}
+.col1, .col2{
+    float: left;
+  
+}
+.col1{
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 500px;
+}
+.col1 h1{
+    font-size: 40px;
+    margin-left: 100px;
+   
+}
+.col1 h2{
+    font-size: 30px;
+    color: black;
+}
+.col1 p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: black;
+}
+.col1 .p1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: white;
+}
+.col1 .button{
+    background-color: rgb(177, 120, 15);
+    padding: 9px;
+    border: 2px solid rgb(206, 163, 83);
+    border-radius: 15px;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 200px;
+}
+.col1 .button:hover{
+    background-color: red;
+}
+.col1 .button a{
+    text-decoration: none;
+    color: black;
+}
+.col2{
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 300px;
+}
+.col2 img{
+    width: 800px;
+}
+
+.card{
+    float:left;
+    background-color: black;
+    width: 100%;
+}
+.col1, .col2, .col3{
+    margin-top: 20px;
+    color: white;
+    float: left;
+    width: 420px;
+  
+}
+/* .col1{
+    margin-left: 50px;
+} */
+.col1 h1{
+    font-size: 40px;
+    margin-left: 100px;
+    color: blue;
+}
+.col1 p{
+    font-size: 25px;
+    text-align: justify;
+}
+/* .col2{
+    margin-left: 200px;
+} */
+.col2 h1{
+    font-size: 40px;
+    color: blue;
+}
+.col2 p{
+    font-size: 25px;
+    text-align: justify;
+    color: red;
+}
+.col3{
+    margin-left: 90px;
+}
+.col3 h1{
+    font-size: 40px;
+    color: blue;
+}
+.col3 p{
+    font-size: 25px;
+    text-align: justify;
+}
+.form label{
+    font-size: 20px;
+}
+.form input{
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+  
+}
+.form .inp{
+    width: 300px;
+    height: 90px;
+
+}
+.btn{
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 190px;
+    padding: 5px;
+    font-size: 25px;
+    background-color: rgb(126, 70, 70);
+    color: white;
+    border: 2px solid rgb(126, 70, 70);;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+.footer{
+    background-color: rgb(20, 16, 16);
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    font-size: 20px;
+}
